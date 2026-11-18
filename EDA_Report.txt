@@ -1,0 +1,49 @@
+EDA SUMMARY REPORT
+==================================================
+Rows in original dataset: 501
+Columns in original dataset: 11
+Duplicate rows detected: 1
+Total missing cells detected: 8
+Rows after removing duplicates: 500
+Total sales after basic cleaning: 9,243,339.19
+Total profit after basic cleaning: 2,484,109.68
+Average order sales: 18,486.68
+Number of records after cleaning: 500
+
+TOP CATEGORY SALES:
+Category
+Electronics       5645505.79
+Home & Kitchen    1966114.92
+Clothing           976009.67
+Beauty             421946.79
+Books              233762.02
+
+REGIONAL SALES:
+Region
+West       2423949.81
+Central    1941410.96
+North      1838184.50
+East       1768830.60
+South      1219436.16
+Unknown      51527.16
+
+HYPOTHESIS TEST:
+Reject H0: evidence of a statistically significant difference.
+P-value: 0.000000
+
+POTENTIAL OUTLIERS (IQR):
+Quantity: 0
+Unit_Price: 53
+Sales: 49
+Profit: 47
+
+DATA ISSUES TO REVIEW:
+- Missing values were found and handled with simple documented replacements.
+- Duplicate rows were detected and removed from the working dataset.
+- IQR flags potential outliers; these should be investigated, not automatically deleted.
+- This is a synthetic practice dataset, not real company data.
+
+CONCLUSION:
+The analysis explored sales patterns across categories, regions and months,
+checked data quality, identified potential outliers and performed a statistical test.
+Review the generated charts and business context before making decisions.
